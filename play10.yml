@@ -11,6 +11,7 @@
       regexp: ^PermitRootLogin
       line: "PermitRootLogin no"
       backup: yes
+      forntend: yes
    - name: Restart sshd 
      service:
       name: sshd
